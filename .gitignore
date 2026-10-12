@@ -1,0 +1,21 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Transcoding output & media
+output/
+sample_video.mp4
+*.mp4
+*.ts
+*.m3u8
+
+# Logs & temp
+*.log
+.gemini/

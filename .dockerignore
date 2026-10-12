@@ -1,0 +1,25 @@
+# Secrets & Environments
+.env
+.env.*
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Local media output & temp
+output/
+sample_video.mp4
+*.ts
+*.m3u8
+*.mp4
+
+# VCS & IDE
+.git/
+.gitignore
+.gemini/
+.idea/
+.vscode/
